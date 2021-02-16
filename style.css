@@ -1,0 +1,142 @@
+@import url('https://fonts.googleapis.com/css2?family=Ballet&display=swap');
+:root {
+    --size: 7;
+    --background: #3F443F; 
+    --cate: #F4F4F4;
+    --text-color1: #3B393A;
+    --text-color2: #D5D5D5;
+    font-family: 'Benne', serif;
+  }
+
+html {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: var(--cate);
+    font-size: 50px;
+    color: black;
+}
+main {
+    display: flex;
+    margin: 10%;
+    height: 80vh;
+    background-color: var(--background);
+    align-items: center;
+    justify-content: space-around;
+    border-radius: 15px;
+    
+}
+
+
+.head_footer
+{
+    
+    width: 100%;
+    height: 20%;
+    display: flex;
+    /* flex-direction: row; */
+}
+
+#big-box{
+    display: flex;
+    flex-direction: column;
+    background-color: var(--cate);
+    width: 90%;
+    height: 60%;
+    border-radius: 20px;
+
+}
+
+/* bar*/
+#head_bar
+{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#logo {
+    font-family: 'Ballet', cursive;
+    color: var(--background);
+    padding-left: 18px;
+    
+}
+
+#list1 {
+    display: flex; 
+    align-items: center;
+    justify-content: space-between;
+    font-size: 12px;
+}
+
+li a {
+    margin: 15px;
+    color: var(--text-color1);
+    text-decoration: none;
+}
+
+a:hover{
+    color: var(--text-color2);
+}
+
+
+/* center*/
+
+#body_bar
+{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+    height: 60%;
+    background-color: "#336699";
+}
+
+#titel {
+    font-size: 20px;
+    color: var(--text-color1);
+    font-family: 'Benne', serif;
+    margin-bottom: 20PX;
+    margin-left: 7%;
+}
+#contener {
+
+    overflow-x: scroll;
+    overflow-y: hidden;
+    white-space: nowrap;
+    width: 100%;
+    height: 90%;
+
+    /* background: royalblue; */
+
+}
+
+#contener.active {
+    
+  }
+
+.group-divs {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 3%;
+    width: 40%;
+    height: 100%;
+    border-radius: 1%;
+    background-color: var(--background);
+}
+
+
+#footer_bar {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+#copyright_style {
+    font-size: 12px;
+    color: var(--text-color2);
+    font-family: 'Benne', serif;
+    padding-right: 20px;
+}
