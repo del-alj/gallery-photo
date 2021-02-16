@@ -1,0 +1,62 @@
+
+:root {
+    --nb-div-calegory: 5;
+    --nb-img-c1: 6;
+    --nb-img-c2: 6;
+    --nb-img-c3: 6;
+    --nb-img-c4: 6;
+    --nb-img-c5: 6;
+    --background: ; 
+    --color1: #252122;
+    --color2: #A1491B;
+    --color3: ;
+  }
+
+html {
+
+}
+
+body {
+    background-color: var(--background);
+}
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: calc(100vh - 20px);
+    border-radius: 15px;
+
+    
+}
+
+.head_bar {
+
+}
+
+#logo {
+
+}
+
+#list-bar {
+
+}
+
+li  a {
+        
+}
+
+#body_bar {
+
+}
+
+#contenere {
+
+}
+
+.footer_bar {
+
+}
+
+#copyright_style {
+
+    }
